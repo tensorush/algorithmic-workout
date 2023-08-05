@@ -1,6 +1,5 @@
 # :weight_lifting: :sweat_drops: **Yandex Algorithmic Workouts**
 
-[![forthebadge](https://forthebadge.com/images/badges/you-didnt-ask-for-this.svg)](https://forthebadge.com)
 [![MIT License][license-shield]][license-url]
 
 ## :white_check_mark: Solutions to programming contests organized by the [Young&&Yandex Internships Initiative](https://yandex.ru/yaintern/algorithm-training/):
