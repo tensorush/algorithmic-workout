@@ -1,14 +1,14 @@
 #include <algorithm>
 #include <iostream>
 #include <iterator>
-#include <vector>
-#include <string>
 #include <set>
+#include <string>
+#include <vector>
 
 using namespace std;
 
-
-int main() {
+int main()
+{
     char digit_1, digit_2, digit_3;
     cin >> digit_1 >> digit_2 >> digit_3;
     set<char> availableDigits = { digit_1, digit_2, digit_3 };

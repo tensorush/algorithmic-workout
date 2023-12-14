@@ -1,21 +1,21 @@
-#include <unordered_set>
 #include <algorithm>
 #include <iostream>
 #include <string>
+#include <unordered_set>
 
 using namespace std;
 
-
-template<typename T>
-void PrintContainer(const T& container) {
+template <typename T>
+void PrintContainer(const T& container)
+{
     cout << container.size() << endl;
     for (const auto& element : container) {
         cout << element << endl;
     }
 }
 
-
-int main() {
+int main()
+{
     unsigned numPupils;
     cin >> numPupils;
 
@@ -36,7 +36,7 @@ int main() {
             if (allLangs.find(lang) != allLangs.end())
                 langs.emplace(lang);
         }
-        allLangs = move(langs);
+        allLangs = std::move(langs);
     }
 
     PrintContainer(allLangs);

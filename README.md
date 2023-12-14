@@ -1,28 +1,29 @@
-# :weight_lifting: :sweat_drops: **Yandex Algorithmic Workouts**
+## :dragon_face: :weight_lifting: **algorithmic workout**
 
-[![MIT License][license-shield]][license-url]
+[![CI][ci-shd]][ci-url]
+[![LC][lc-shd]][lc-url]
 
-## :white_check_mark: Solutions to programming contests organized by the [Young&&Yandex Internships Initiative](https://yandex.ru/yaintern/algorithm-training/):
+### Solutions to programming contests.
 
-> ### :hugs: _Any corrections are much appreciated!_
+1. ###  :test_tube: [Testing](src/1-testing/)
 
-- ### [Contest 1](https://contest.yandex.ru/contest/27393/enter/) :white_check_mark: — [Edge-Case Testing](https://github.com/tensorush/Yandex-Algorithmic-Training/tree/master/1.%20Edge-Case%20Testing) :test_tube:
+2. ###  :mag: [Linear Search](src/2-linear-search/)
 
-- ### [Contest 2](https://contest.yandex.ru/contest/27472/enter/) :white_check_mark: — [Linear Search](https://github.com/tensorush/Yandex-Algorithmic-Training/tree/master/2.%20Linear%20Search) :mag:
+3. ###  :basket: [Sets](src/3-sets/)
 
-- ### [Contest 3](https://contest.yandex.ru/contest/27663/enter/) :white_check_mark: — [Sets](https://github.com/tensorush/Yandex-Algorithmic-Training/tree/master/3.%20Sets) :basket:
+4. ###  :world_map: [Maps](src/4-maps/)
 
-- ### [Contest 4](https://contest.yandex.ru/contest/27665/enter/) :white_check_mark: — [Maps and Counting Sort](https://github.com/tensorush/Yandex-Algorithmic-Training/tree/master/4.%20Maps%20and%20Counting%20Sort) :world_map: :1234:
+5. ###  :roller_coaster:  [Prefix Sums](src/5-prefix-sums/)
 
-- ### [Contest 5](https://contest.yandex.ru/contest/27794/enter/) :white_check_mark: — [Prefix Sums and Two-Pointer Technique](https://github.com/tensorush/Yandex-Algorithmic-Training/tree/master/5.%20Prefix%20Sums%20and%20Two-Pointer%20Technique) :roller_coaster: :twisted_rightwards_arrows:
+6. ###  :fountain: [Binary Search](src/6-binary-search/)
 
-- ### [Contest 6](https://contest.yandex.ru/contest/27844/enter/) :white_check_mark: — [Binary Search](https://github.com/tensorush/Yandex-Algorithmic-Training/tree/master/6.%20Binary%20Search) :fountain:
+7. ###  :incoming_envelope: [Event Sorting](src/7-event-sorting/)
 
-- ### [Contest 7](https://contest.yandex.ru/contest/27883/enter/) :white_check_mark: — [Event Sorting](https://github.com/tensorush/Yandex-Algorithmic-Training/tree/master/7.%20Event%20Sorting) :incoming_envelope:
-
-- ### [Contest 8](https://contest.yandex.ru/contest/28069/enter/) :white_check_mark: — [Trees](https://github.com/tensorush/Yandex-Algorithmic-Training/tree/master/8.%20Trees) :deciduous_tree:
+8. ###  :deciduous_tree: [Trees](src/8-trees/)
 
 <!-- MARKDOWN LINKS -->
 
-[license-shield]: https://img.shields.io/github/license/tensorush/Yandex-Algorithmic-Training.svg?style=for-the-badge
-[license-url]: https://github.com/tensorush/Yandex-Algorithmic-Training/blob/master/LICENSE.md
+[ci-shd]: https://img.shields.io/github/actions/workflow/status/tensorush/algorithmic-workout/ci.yaml?branch=main&style=for-the-badge&logo=github&label=CI&labelColor=black
+[ci-url]: https://github.com/tensorush/algorithmic-workout/blob/main/.github/workflows/ci.yaml
+[lc-shd]: https://img.shields.io/github/license/tensorush/algorithmic-workout.svg?style=for-the-badge&labelColor=black
+[lc-url]: https://github.com/tensorush/algorithmic-workout/blob/main/LICENSE.md
